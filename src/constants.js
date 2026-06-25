@@ -3,9 +3,16 @@ import trainer1 from "./assets/trainers/trainer1.jpg";
 import trainer2 from "./assets/trainers/trainer2.jpg";
 import trainer3 from "./assets/trainers/trainer3.jpg";
 import trainer4 from "./assets/trainers/trainer4.jpg";
+import HeroBg from "./assets/HeroBg.jpg";
+import Gallery1 from "./assets/gallery/gallery1.jpg";
+import Gallery2 from "./assets/gallery/gallery2.jpg";
+import Gallery3 from "./assets/gallery/gallery3.jpg";
+import Gallery4 from "./assets/gallery/gallery4.jpg";
+import Gallery5 from "./assets/gallery/gallery5.jpg";
+import Gallery6 from "./assets/gallery/gallery6.jpg";
 
 export const IMAGES = {
-  heroBg: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80",
+  heroBg: HeroBg,
   trainers: [
     trainer1,
     trainer2,
@@ -13,12 +20,12 @@ export const IMAGES = {
     trainer4
   ],
   gallery: [
-    "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&h=600&q=80",
-    "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=600&h=600&q=80",
-    "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&h=600&q=80",
-    "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=600&h=600&q=80",
-    "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&h=600&q=80",
-    "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=600&h=600&q=80"
+    Gallery1,
+    Gallery2,
+    Gallery3,
+    Gallery4,
+    Gallery5,
+    Gallery6
   ]
 };
 
