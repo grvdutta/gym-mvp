@@ -1,46 +1,136 @@
 # Apex Fitness Gym Website MVP
 
-A modern, responsive, and premium React portfolio website for a gym business, built with React, Vite, and Lucide Icons.
+A modern, responsive, and premium gym website built with React, Vite, and Lucide React. The project showcases a professional fitness business landing page with dynamic content sections, smooth navigation, responsive layouts, and a clean user experience.
 
 ## Features
 
-- **SEO Optimized**: Custom metadata, descriptions, page title, and search engine-friendly HTML structures.
-- **Premium Aesthetics**: Bold fitness-oriented colors, dark mode design system, typography using Google Fonts (Poppins & Inter), smooth scrolling, and hover animations.
-- **Dynamic Content**: Data items (Trainers, Services, Pricing Plans, Testimonials, Gallery, Stats) are mapped dynamically from central JS arrays for easy customization.
-- **Mobile First**: Fully responsive layout from small mobiles up to wide screens.
-- **Sticky Navigation**: Smooth viewport navigation with a sliding hamburger menu for mobile devices.
+* Responsive design for mobile, tablet, and desktop devices
+* Modern fitness-focused UI with dark theme styling
+* Dynamic content managed through centralized constants
+* Hero section with call-to-action buttons
+* Services and features showcase
+* Trainer profiles
+* Pricing plans
+* Testimonials section
+* Image gallery
+* Contact section
+* Sticky navigation bar with mobile menu
+* Smooth scrolling experience
+* SEO-friendly structure
 
 ## Tech Stack
 
-- **Framework**: React (functional components, hooks)
-- **Bundler**: Vite
-- **Icons**: Lucide React
-- **Styling**: Vanilla CSS with custom properties (CSS variables)
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* Lucide React Icons
 
 ## Installation & Getting Started
 
-1. **Clone/Navigate** to the project directory:
-   ```bash
-   cd gym-mvp
-   ```
+### Clone the Repository
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/grvdutta/gym-mvp.git
+cd gym-mvp
+```
 
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
+### Install Dependencies
 
-4. **Open in browser**:
-   Navigate to `http://localhost:5173` (or the URL shown in your terminal).
+```bash
+npm install
+```
 
-## Build and Deployment
+### Start Development Server
 
-- To compile the project for production, run:
-  ```bash
-  npm run build
-  ```
-- The production-ready static files will be generated in the `dist/` directory, which can be deployed to any static host (e.g., Netlify, Vercel, GitHub Pages).
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+or the URL shown in your terminal.
+
+## Build for Production
+
+Generate an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Live Demo
+
+### Website
+
+https://gym-mvp-five.vercel.app
+
+### GitHub Repository
+
+https://github.com/grvdutta/gym-mvp
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── trainers/
+│   ├── gallery/
+│   └── HeroBG.jpg
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   ├── Services.jsx
+│   ├── Trainers.jsx
+│   ├── Pricing.jsx
+│   ├── Gallery.jsx
+│   ├── Testimonials.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── constants.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Key Highlights
+
+* Component-based React architecture
+* Centralized content management through constants
+* Easy customization of trainers, pricing, services, and testimonials
+* Optimized local image assets
+* Fast performance with Vite bundling
+* Portfolio-ready project structure
+
+## Future Improvements
+
+* Membership registration system
+* Authentication and user accounts
+* Trainer booking functionality
+* Payment gateway integration
+* Fitness blog section
+* Workout and nutrition tracking dashboard
+* Backend API integration
+
+## Author
+
+**GD (grvdutta)**
+
+Built as a portfolio project to demonstrate frontend development skills using React and Vite.
+
+## License
+
+This project is available for educational, learning, and portfolio purposes.
