@@ -3,7 +3,7 @@ import trainer1 from "./assets/trainers/trainer1.jpg";
 import trainer2 from "./assets/trainers/trainer2.jpg";
 import trainer3 from "./assets/trainers/trainer3.jpg";
 import trainer4 from "./assets/trainers/trainer4.jpg";
-import HeroBg from "./assets/HeroBg.jpg";
+import HeroBg from "./assets/HeroBG.jpg";
 import Gallery1 from "./assets/gallery/gallery1.jpg";
 import Gallery2 from "./assets/gallery/gallery2.jpg";
 import Gallery3 from "./assets/gallery/gallery3.jpg";
