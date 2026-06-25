@@ -1,12 +1,16 @@
 // Central constants and configuration for easy content updates
+import trainer1 from "./assets/trainers/trainer1.jpg";
+import trainer2 from "./assets/trainers/trainer2.jpg";
+import trainer3 from "./assets/trainers/trainer3.jpg";
+import trainer4 from "./assets/trainers/trainer4.jpg";
 
 export const IMAGES = {
   heroBg: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80",
   trainers: [
-    "https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=600&h=800&q=80",
-    "https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=600&h=800&q=80",
-    "https://images.unsplash.com/photo-1605296867304-46d5465a25f1?auto=format&fit=crop&w=600&h=800&q=80",
-    "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&h=800&q=80"
+    trainer1,
+    trainer2,
+    trainer3,
+    trainer4
   ],
   gallery: [
     "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&h=600&q=80",
